@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gemspec
 
+gem 'money', git: 'https://github.com/levelone/money', tag: 'v6.13.8.rc1'
+
 platforms :jruby do
   gem "activerecord-jdbc-adapter"
   gem "activerecord-jdbcsqlite3-adapter"
